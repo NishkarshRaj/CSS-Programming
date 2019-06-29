@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> Multiple Style Sheets </title>
+<link rel="stylesheet" href="multiple.css">
+<style>
+p {color:blue;}
+</style>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1> Multiple Style Sheet Resolution </h1>
+<p> Hello Hello! Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!Hello Hello!</p>
+<pre>
+If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used. 
+
+<mark> Cascading Order: </mark>
+
+What style will be used when there is more than one style specified for an HTML element?
+
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+    Inline style (inside an HTML element)
+    External and internal style sheets (in the head section)
+    Browser default
+
+So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+</pre>
+</body>
+</html>

@@ -1,2 +1,4 @@
 h1 {color:white; background:blue; border:2px solid black; text-align:center;}
 p {color: blue; font-size:200%;}
+
+/* Type specified in link in html file is not necessary */
