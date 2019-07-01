@@ -1,0 +1,25 @@
+a
+{
+margin: 40px;
+border: 2px solid black;
+display: inline-block;
+padding: 30px;
+outline: 5px solid black;
+outline-offset: 3px;
+}
+a:link
+{
+background-color:pink;
+}
+a:visited
+{
+background-color:purple;
+}
+a:hover
+{
+background-color:red;
+}
+a:selected
+{
+background-color:tomato;
+}
