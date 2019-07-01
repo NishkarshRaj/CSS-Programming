@@ -1,0 +1,22 @@
+table,th,td
+{
+border: 3px solid black;
+border: collapse;
+margin: 40px;
+padding: 30px;
+height: 100px;
+width: 800px;
+}
+tr:nth-child(odd)
+{
+background-color: pink;
+}
+tr:nt-child(even)
+{
+background-color: grey;
+}
+tr:hover
+{
+background-color:black;
+color:white;
+}
