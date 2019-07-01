@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> CSS Padding+Width </title>
+<meta charset="UTF-8">
+<style>
+p.one {padding:80px; border:2px solid black; width:400px; box-sizing:border-box;}
+p.two {padding:80px; border:2px solid black; width:400px;}
+</style>
+</head>
+<body>
+<h1> Using CSS Padding with Width Element </h1>
+<pre>
+The CSS width property specifies the width of the element's content area. 
+The content area is the portion inside the padding, border, and margin of an element (the box model).
+So, if an element has a specified width, the padding added to that element will be added to the total width of the element. This is often an undesirable result.
+
+To keep the width at widthmax only, no matter the amount of padding, you can use the box-sizing property. 
+This causes the element to maintain its width; if you increase the padding, the available content space will decrease.
+</pre>
+<p class="one">
+<mark> Paragraph with Box Sizing nullifying the padding </mark>
+Check <br>
+Check <br>
+Check <br>
+Check <br>
+Check <br>
+Check <br>
+</p>
+<p class="two">
+<mark> Paragraph using Padding + Width </mark>
+Check <br>
+Check <br>
+Check <br>
+Check <br>
+Check <br>
+Check <br>
+</p>
+</body>
+</html>
