@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> CSS Margins </title>
+<meta charset="UTF-8">
+<style>
+pre {margin-bottom:80px;}
+p {margin-top:20px;}
+</style>
+</head>
+<body>
+<h1> Margin Collapse </h1>
+<pre> 
+Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.
+
+This does not happen on left and right margins! Only top and bottom margins!
+
+Here, pre (Paragraph 1) has a bottom margin of 80px and p (Paragraph 2) has a top margin of 20 px.
+But we dont get a combined margin of 80+20=100px.
+Rather, we get max(80,20)=80px
+</pre>
+<p> Check </p>
+</body>
+</html>
