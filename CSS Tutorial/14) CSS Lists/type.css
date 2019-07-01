@@ -1,0 +1,8 @@
+ol.order
+{
+list-style-type:lower-alpha;
+}
+ul.unorder
+{
+list-style-type:square;
+}
