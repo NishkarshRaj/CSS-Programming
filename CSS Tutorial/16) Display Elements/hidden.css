@@ -1,2 +1,2 @@
-h2 {display:none;}
-h3 {visibility: hidden;}
+h2 {display:none; background-color:black;}
+h3 {visibility: hidden; background-color:blue;}
