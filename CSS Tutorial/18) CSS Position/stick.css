@@ -1,0 +1,11 @@
+h1
+{
+width:200px;
+margin:auto;
+color:white;
+background-color:black;
+border:2px solid red;
+outline: 2px solid blue;
+position:sticky;
+top:0px;
+}
