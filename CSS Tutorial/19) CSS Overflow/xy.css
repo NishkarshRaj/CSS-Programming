@@ -1,0 +1,11 @@
+pre
+{
+height: 100px;
+width: 400px;
+overflow-x:hidden;
+overflow-y:scroll;
+}
+body
+{
+background-color:red;
+}
