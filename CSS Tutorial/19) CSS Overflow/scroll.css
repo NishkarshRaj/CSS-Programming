@@ -1,0 +1,12 @@
+pre
+{
+color: white;
+background-color:black;
+height: 30px;
+width: 40px;
+overflow:scroll;
+}
+body
+{
+background-color:red;
+}
